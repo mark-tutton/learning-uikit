@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/job-talk/learning-uikit#readme",
   "dependencies": {
-    "lodash": "^4.17.15",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "uikit": "^3.2.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   }
 }
